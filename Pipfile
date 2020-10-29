@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+flake8 = "*"
+black = "*"
+isort = "*"
+mypy = "*"
+
+[packages]
+requests = "*"
+urllib3 = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true

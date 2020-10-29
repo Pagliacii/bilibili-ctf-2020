@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 79
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.mypy_cache
+    | \.vscode
+    | dirsearch
+  )/
+
+)
+'''
